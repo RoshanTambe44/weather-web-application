@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    
+    background: #222;
+    
+}
+
+.error{
+    margin-left: 15px;
+    margin-top: 5px;
+    color: red;
+    display: none;
+}
+
+.img{
+    height: 100px;
+    width: 100px;
+    margin-left: 100px;
+}
+
+.box {
+        height: auto;
+        width: 300px;
+        background:linear-gradient(150deg, rgb(243, 148, 238), lightblue);
+        background-size: cover;
+        padding: 10px;
+        border-radius: 20px;
+        
+    }
+
+.main2{
+    display:none;
+}
+
+
+.inbtn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: transparent;
+    outline:transparent;
+    background-color: #ebfffc;
+    border-radius: 50px;
+
+}
+
+#input {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+}
+
+.inbtn button {
+    border: 0;
+    outline: 0;
+    background-color: springgreen;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+#city{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.cast{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    
+}
+
+.atm {
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+
+}
+
+.weth {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+
+}
+
+.p1, .p2{
+    font-size: 25px;
+}
+
